@@ -1,0 +1,19 @@
+Public Class Form1
+
+    Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Form1_Closing(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles MyBase.Closing
+        'If MsgBox("Oyundan çıkmak istediğinize emin misiniz?", MsgBoxStyle.YesNo, "Oyundan Çıkılıyor") = MsgBoxResult.Yes Then
+        'Else
+        '   e.Cancel = True
+        'End If
+    End Sub
+
+    Private Sub ShopButton_Click(sender As System.Object, e As System.EventArgs) Handles ShopaGitPic.Click
+        Form2.Show()
+        Form2.Location = New Drawing.Point(Me.Location.X, Me.Location.Y)
+        Me.Hide()
+    End Sub
+End Class
