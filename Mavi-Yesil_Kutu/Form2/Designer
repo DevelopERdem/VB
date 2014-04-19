@@ -1,0 +1,309 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Shop
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Kediler1 = New System.Windows.Forms.PictureBox()
+        Me.Kediler2 = New System.Windows.Forms.PictureBox()
+        Me.Kediler3 = New System.Windows.Forms.PictureBox()
+        Me.Kediler4 = New System.Windows.Forms.PictureBox()
+        Me.Kediler8 = New System.Windows.Forms.PictureBox()
+        Me.Kediler7 = New System.Windows.Forms.PictureBox()
+        Me.Kediler6 = New System.Windows.Forms.PictureBox()
+        Me.Kediler5 = New System.Windows.Forms.PictureBox()
+        Me.Kediler12 = New System.Windows.Forms.PictureBox()
+        Me.Kediler11 = New System.Windows.Forms.PictureBox()
+        Me.Kediler10 = New System.Windows.Forms.PictureBox()
+        Me.Kediler9 = New System.Windows.Forms.PictureBox()
+        Me.ShopYanSy1 = New System.Windows.Forms.PictureBox()
+        Me.Kediler15 = New System.Windows.Forms.PictureBox()
+        Me.Kediler14 = New System.Windows.Forms.PictureBox()
+        Me.Kediler13 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        CType(Me.Kediler1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ShopYanSy1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Kediler13, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Kediler1
+        '
+        Me.Kediler1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler1.Location = New System.Drawing.Point(12, 12)
+        Me.Kediler1.Name = "Kediler1"
+        Me.Kediler1.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler1.TabIndex = 1
+        Me.Kediler1.TabStop = False
+        '
+        'Kediler2
+        '
+        Me.Kediler2.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler2.Location = New System.Drawing.Point(68, 12)
+        Me.Kediler2.Name = "Kediler2"
+        Me.Kediler2.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler2.TabIndex = 2
+        Me.Kediler2.TabStop = False
+        '
+        'Kediler3
+        '
+        Me.Kediler3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler3.Location = New System.Drawing.Point(124, 12)
+        Me.Kediler3.Name = "Kediler3"
+        Me.Kediler3.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler3.TabIndex = 3
+        Me.Kediler3.TabStop = False
+        '
+        'Kediler4
+        '
+        Me.Kediler4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler4.Location = New System.Drawing.Point(180, 12)
+        Me.Kediler4.Name = "Kediler4"
+        Me.Kediler4.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler4.TabIndex = 4
+        Me.Kediler4.TabStop = False
+        '
+        'Kediler8
+        '
+        Me.Kediler8.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler8.Location = New System.Drawing.Point(180, 68)
+        Me.Kediler8.Name = "Kediler8"
+        Me.Kediler8.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler8.TabIndex = 8
+        Me.Kediler8.TabStop = False
+        '
+        'Kediler7
+        '
+        Me.Kediler7.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler7.Location = New System.Drawing.Point(124, 68)
+        Me.Kediler7.Name = "Kediler7"
+        Me.Kediler7.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler7.TabIndex = 7
+        Me.Kediler7.TabStop = False
+        '
+        'Kediler6
+        '
+        Me.Kediler6.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler6.Location = New System.Drawing.Point(68, 68)
+        Me.Kediler6.Name = "Kediler6"
+        Me.Kediler6.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler6.TabIndex = 6
+        Me.Kediler6.TabStop = False
+        '
+        'Kediler5
+        '
+        Me.Kediler5.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler5.Location = New System.Drawing.Point(12, 68)
+        Me.Kediler5.Name = "Kediler5"
+        Me.Kediler5.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler5.TabIndex = 5
+        Me.Kediler5.TabStop = False
+        '
+        'Kediler12
+        '
+        Me.Kediler12.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler12.Location = New System.Drawing.Point(180, 124)
+        Me.Kediler12.Name = "Kediler12"
+        Me.Kediler12.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler12.TabIndex = 12
+        Me.Kediler12.TabStop = False
+        '
+        'Kediler11
+        '
+        Me.Kediler11.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler11.Location = New System.Drawing.Point(124, 124)
+        Me.Kediler11.Name = "Kediler11"
+        Me.Kediler11.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler11.TabIndex = 11
+        Me.Kediler11.TabStop = False
+        '
+        'Kediler10
+        '
+        Me.Kediler10.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler10.Location = New System.Drawing.Point(68, 124)
+        Me.Kediler10.Name = "Kediler10"
+        Me.Kediler10.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler10.TabIndex = 10
+        Me.Kediler10.TabStop = False
+        '
+        'Kediler9
+        '
+        Me.Kediler9.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler9.Location = New System.Drawing.Point(12, 124)
+        Me.Kediler9.Name = "Kediler9"
+        Me.Kediler9.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler9.TabIndex = 9
+        Me.Kediler9.TabStop = False
+        '
+        'ShopYanSy1
+        '
+        Me.ShopYanSy1.BackColor = System.Drawing.Color.Tomato
+        Me.ShopYanSy1.Location = New System.Drawing.Point(180, 180)
+        Me.ShopYanSy1.Name = "ShopYanSy1"
+        Me.ShopYanSy1.Size = New System.Drawing.Size(50, 50)
+        Me.ShopYanSy1.TabIndex = 16
+        Me.ShopYanSy1.TabStop = False
+        '
+        'Kediler15
+        '
+        Me.Kediler15.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler15.Location = New System.Drawing.Point(124, 180)
+        Me.Kediler15.Name = "Kediler15"
+        Me.Kediler15.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler15.TabIndex = 15
+        Me.Kediler15.TabStop = False
+        '
+        'Kediler14
+        '
+        Me.Kediler14.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler14.Location = New System.Drawing.Point(68, 180)
+        Me.Kediler14.Name = "Kediler14"
+        Me.Kediler14.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler14.TabIndex = 14
+        Me.Kediler14.TabStop = False
+        '
+        'Kediler13
+        '
+        Me.Kediler13.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Kediler13.Location = New System.Drawing.Point(12, 180)
+        Me.Kediler13.Name = "Kediler13"
+        Me.Kediler13.Size = New System.Drawing.Size(50, 50)
+        Me.Kediler13.TabIndex = 13
+        Me.Kediler13.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(180, 39)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(155, 98)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 18
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(170, 151)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(180, 236)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "Button3"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Shop
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(284, 264)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ShopYanSy1)
+        Me.Controls.Add(Me.Kediler15)
+        Me.Controls.Add(Me.Kediler14)
+        Me.Controls.Add(Me.Kediler13)
+        Me.Controls.Add(Me.Kediler12)
+        Me.Controls.Add(Me.Kediler11)
+        Me.Controls.Add(Me.Kediler10)
+        Me.Controls.Add(Me.Kediler9)
+        Me.Controls.Add(Me.Kediler8)
+        Me.Controls.Add(Me.Kediler7)
+        Me.Controls.Add(Me.Kediler6)
+        Me.Controls.Add(Me.Kediler5)
+        Me.Controls.Add(Me.Kediler4)
+        Me.Controls.Add(Me.Kediler3)
+        Me.Controls.Add(Me.Kediler2)
+        Me.Controls.Add(Me.Kediler1)
+        Me.Name = "Shop"
+        Me.Tag = ""
+        Me.Text = "Shop"
+        CType(Me.Kediler1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ShopYanSy1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Kediler13, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Kediler1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler2 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler3 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler4 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler8 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler7 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler6 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler5 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler12 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler10 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler9 As System.Windows.Forms.PictureBox
+    Friend WithEvents ShopYanSy1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler15 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Kediler13 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+End Class
