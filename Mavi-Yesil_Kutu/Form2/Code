@@ -1,0 +1,27 @@
+Public Class Shop
+
+    Private Sub Form2_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        Dim dicerigi As String = My.Computer.FileSystem.ReadAllText("C:\Users\Developer\Desktop\yuksekrekor.kp")
+        TextBox1.Text = dicerigi
+    End Sub
+
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        Dim a As String
+        a = TextBox1.Text
+        My.Computer.FileSystem.WriteAllText("C:\Users\Developer\Desktop\yuksekrekor.kp", String.Intern(a), False)
+    End Sub
+
+    Private Sub ShopYanSy1_Click(sender As System.Object, e As System.EventArgs) Handles ShopYanSy1.Click
+        GameScreen.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+        GameScreen.Show()
+        Me.Close()
+    End Sub
+End Class
