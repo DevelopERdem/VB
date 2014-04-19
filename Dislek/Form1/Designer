@@ -1,0 +1,216 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.CanGostergesiPic = New System.Windows.Forms.PictureBox()
+        Me.KarakterPic = New System.Windows.Forms.PictureBox()
+        Me.NesnePic = New System.Windows.Forms.PictureBox()
+        Me.ZeminPic = New System.Windows.Forms.PictureBox()
+        Me.ShopaGitPic = New System.Windows.Forms.PictureBox()
+        Me.YedekKarakter1Pic = New System.Windows.Forms.PictureBox()
+        Me.YedekKarakter2Pic = New System.Windows.Forms.PictureBox()
+        Me.YedekKarakter3Pic = New System.Windows.Forms.PictureBox()
+        Me.YedekKarakter4Pic = New System.Windows.Forms.PictureBox()
+        Me.SkorLab = New System.Windows.Forms.Label()
+        Me.OyunaBaslaLab = New System.Windows.Forms.LinkLabel()
+        Me.OyunYardimPic = New System.Windows.Forms.PictureBox()
+        CType(Me.CanGostergesiPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.KarakterPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NesnePic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ZeminPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ShopaGitPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YedekKarakter1Pic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YedekKarakter2Pic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YedekKarakter3Pic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.YedekKarakter4Pic, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.OyunYardimPic, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'CanGostergesiPic
+        '
+        Me.CanGostergesiPic.BackColor = System.Drawing.Color.Lime
+        Me.CanGostergesiPic.Location = New System.Drawing.Point(3, 3)
+        Me.CanGostergesiPic.Name = "CanGostergesiPic"
+        Me.CanGostergesiPic.Size = New System.Drawing.Size(100, 20)
+        Me.CanGostergesiPic.TabIndex = 0
+        Me.CanGostergesiPic.TabStop = False
+        '
+        'KarakterPic
+        '
+        Me.KarakterPic.BackColor = System.Drawing.Color.White
+        Me.KarakterPic.Location = New System.Drawing.Point(28, 171)
+        Me.KarakterPic.Name = "KarakterPic"
+        Me.KarakterPic.Size = New System.Drawing.Size(65, 65)
+        Me.KarakterPic.TabIndex = 1
+        Me.KarakterPic.TabStop = False
+        '
+        'NesnePic
+        '
+        Me.NesnePic.BackColor = System.Drawing.Color.Yellow
+        Me.NesnePic.Location = New System.Drawing.Point(437, 201)
+        Me.NesnePic.Name = "NesnePic"
+        Me.NesnePic.Size = New System.Drawing.Size(35, 35)
+        Me.NesnePic.TabIndex = 2
+        Me.NesnePic.TabStop = False
+        '
+        'ZeminPic
+        '
+        Me.ZeminPic.BackColor = System.Drawing.Color.Black
+        Me.ZeminPic.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.ZeminPic.Location = New System.Drawing.Point(0, 389)
+        Me.ZeminPic.Name = "ZeminPic"
+        Me.ZeminPic.Size = New System.Drawing.Size(484, 75)
+        Me.ZeminPic.TabIndex = 3
+        Me.ZeminPic.TabStop = False
+        '
+        'ShopaGitPic
+        '
+        Me.ShopaGitPic.BackColor = System.Drawing.Color.Blue
+        Me.ShopaGitPic.Location = New System.Drawing.Point(409, 441)
+        Me.ShopaGitPic.Name = "ShopaGitPic"
+        Me.ShopaGitPic.Size = New System.Drawing.Size(75, 23)
+        Me.ShopaGitPic.TabIndex = 4
+        Me.ShopaGitPic.TabStop = False
+        '
+        'YedekKarakter1Pic
+        '
+        Me.YedekKarakter1Pic.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.YedekKarakter1Pic.Location = New System.Drawing.Point(0, 389)
+        Me.YedekKarakter1Pic.Name = "YedekKarakter1Pic"
+        Me.YedekKarakter1Pic.Size = New System.Drawing.Size(35, 35)
+        Me.YedekKarakter1Pic.TabIndex = 5
+        Me.YedekKarakter1Pic.TabStop = False
+        '
+        'YedekKarakter2Pic
+        '
+        Me.YedekKarakter2Pic.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.YedekKarakter2Pic.Location = New System.Drawing.Point(41, 389)
+        Me.YedekKarakter2Pic.Name = "YedekKarakter2Pic"
+        Me.YedekKarakter2Pic.Size = New System.Drawing.Size(35, 35)
+        Me.YedekKarakter2Pic.TabIndex = 6
+        Me.YedekKarakter2Pic.TabStop = False
+        '
+        'YedekKarakter3Pic
+        '
+        Me.YedekKarakter3Pic.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.YedekKarakter3Pic.Location = New System.Drawing.Point(82, 389)
+        Me.YedekKarakter3Pic.Name = "YedekKarakter3Pic"
+        Me.YedekKarakter3Pic.Size = New System.Drawing.Size(35, 35)
+        Me.YedekKarakter3Pic.TabIndex = 7
+        Me.YedekKarakter3Pic.TabStop = False
+        '
+        'YedekKarakter4Pic
+        '
+        Me.YedekKarakter4Pic.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.YedekKarakter4Pic.Location = New System.Drawing.Point(123, 389)
+        Me.YedekKarakter4Pic.Name = "YedekKarakter4Pic"
+        Me.YedekKarakter4Pic.Size = New System.Drawing.Size(35, 35)
+        Me.YedekKarakter4Pic.TabIndex = 8
+        Me.YedekKarakter4Pic.TabStop = False
+        '
+        'SkorLab
+        '
+        Me.SkorLab.AutoSize = True
+        Me.SkorLab.BackColor = System.Drawing.Color.Black
+        Me.SkorLab.Font = New System.Drawing.Font("Comic Sans MS", 39.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SkorLab.ForeColor = System.Drawing.Color.White
+        Me.SkorLab.Location = New System.Drawing.Point(164, 389)
+        Me.SkorLab.Name = "SkorLab"
+        Me.SkorLab.Size = New System.Drawing.Size(64, 73)
+        Me.SkorLab.TabIndex = 9
+        Me.SkorLab.Text = "0"
+        '
+        'OyunaBaslaLab
+        '
+        Me.OyunaBaslaLab.AutoSize = True
+        Me.OyunaBaslaLab.DisabledLinkColor = System.Drawing.Color.Black
+        Me.OyunaBaslaLab.Font = New System.Drawing.Font("Microsoft Uighur", 80.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OyunaBaslaLab.LinkColor = System.Drawing.Color.Black
+        Me.OyunaBaslaLab.Location = New System.Drawing.Point(21, 38)
+        Me.OyunaBaslaLab.Name = "OyunaBaslaLab"
+        Me.OyunaBaslaLab.Size = New System.Drawing.Size(442, 130)
+        Me.OyunaBaslaLab.TabIndex = 12
+        Me.OyunaBaslaLab.TabStop = True
+        Me.OyunaBaslaLab.Text = "Oyuna Basla"
+        Me.OyunaBaslaLab.VisitedLinkColor = System.Drawing.Color.Black
+        '
+        'OyunYardimPic
+        '
+        Me.OyunYardimPic.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(40, Byte), Integer))
+        Me.OyunYardimPic.Location = New System.Drawing.Point(444, 396)
+        Me.OyunYardimPic.Name = "OyunYardimPic"
+        Me.OyunYardimPic.Size = New System.Drawing.Size(40, 40)
+        Me.OyunYardimPic.TabIndex = 21
+        Me.OyunYardimPic.TabStop = False
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(484, 464)
+        Me.Controls.Add(Me.OyunYardimPic)
+        Me.Controls.Add(Me.OyunaBaslaLab)
+        Me.Controls.Add(Me.SkorLab)
+        Me.Controls.Add(Me.YedekKarakter4Pic)
+        Me.Controls.Add(Me.YedekKarakter3Pic)
+        Me.Controls.Add(Me.YedekKarakter2Pic)
+        Me.Controls.Add(Me.YedekKarakter1Pic)
+        Me.Controls.Add(Me.ShopaGitPic)
+        Me.Controls.Add(Me.ZeminPic)
+        Me.Controls.Add(Me.NesnePic)
+        Me.Controls.Add(Me.KarakterPic)
+        Me.Controls.Add(Me.CanGostergesiPic)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(500, 500)
+        Me.MinimumSize = New System.Drawing.Size(500, 500)
+        Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Form1"
+        CType(Me.CanGostergesiPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.KarakterPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NesnePic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ZeminPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ShopaGitPic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YedekKarakter1Pic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YedekKarakter2Pic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YedekKarakter3Pic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.YedekKarakter4Pic, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.OyunYardimPic, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Public WithEvents CanGostergesiPic As System.Windows.Forms.PictureBox
+    Public WithEvents KarakterPic As System.Windows.Forms.PictureBox
+    Public WithEvents NesnePic As System.Windows.Forms.PictureBox
+    Public WithEvents ZeminPic As System.Windows.Forms.PictureBox
+    Public WithEvents ShopaGitPic As System.Windows.Forms.PictureBox
+    Public WithEvents YedekKarakter1Pic As System.Windows.Forms.PictureBox
+    Public WithEvents YedekKarakter2Pic As System.Windows.Forms.PictureBox
+    Public WithEvents YedekKarakter3Pic As System.Windows.Forms.PictureBox
+    Public WithEvents YedekKarakter4Pic As System.Windows.Forms.PictureBox
+    Public WithEvents SkorLab As System.Windows.Forms.Label
+    Friend WithEvents OyunaBaslaLab As System.Windows.Forms.LinkLabel
+    Friend WithEvents OyunYardimPic As System.Windows.Forms.PictureBox
+
+End Class
