@@ -156,3 +156,4 @@ Partial Class Form2
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
 End Class
+'düzenlendi
