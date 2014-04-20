@@ -224,3 +224,4 @@ Partial Class Form1
     Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
+'güncellendi
