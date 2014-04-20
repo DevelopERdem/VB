@@ -3,7 +3,7 @@ Public Class Form1
     Dim bipsayisi As Integer = 0
     Dim fareX, fareY As Integer
     Dim ekranX, ekranY As Integer
-    Dim gorunurluk As Boolean
+    Dim gorunurluk As Boolean = 1
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'Uygulamanın "enter" ile seçilecek butonu atandı
         Me.AcceptButton = Button1
@@ -16,6 +16,15 @@ Public Class Form1
         NumericUpDown4.Value = NumericUpDown3.Value
         'Timer1 başlatıldı 
         Timer1.Start()
+        If Form2.CheckBox5.Checked = True Then 'Gerisayım başladığında beni köşeye gönder Checkbox ı
+            fareX = MousePosition.X
+            fareY = MousePosition.Y
+            Cursor.Position = New System.Drawing.Point(99999, 99999)
+            ekranX = MousePosition.X
+            ekranY = MousePosition.Y
+            Cursor.Position = New System.Drawing.Point(fareX, fareY)
+            Me.Location = New System.Drawing.Point(ekranX - 312, ekranY - 120)
+        End If
     End Sub
 
     Private Sub Timer1_Tick(sender As System.Object, e As System.EventArgs) Handles Timer1.Tick
@@ -35,25 +44,35 @@ Public Class Form1
                         NumericUpDown4.Value = 59
                     Else
                         'ZAMAN DOLDU
-                        fareX = MousePosition.X
-                        fareY = MousePosition.Y
                         Me.TopMost = True
                         Me.Show()
+                        fareX = MousePosition.X
+                        fareY = MousePosition.Y
                         Cursor.Position = New System.Drawing.Point(99999, 99999)
                         ekranX = MousePosition.X
                         ekranY = MousePosition.Y
                         Cursor.Position = New System.Drawing.Point(fareX, fareY)
-                        Me.Location = New System.Drawing.Point(ekranX - 267, ekranY - 120)
                         If bipsayisi >= 4 Then 'Kaç kere bipleneceği
                             bipsayisi = 0
-                            Button1.PerformClick()
+                            If Form2.CheckBox3.Checked = True Then 'Saati otomatik kur
+                                Button1.PerformClick()
+                                If Form2.CheckBox5.Checked = True Then 'Gerisayım başladığında beni köşeye gönder Checkbox ı
+                                    Me.Location = New System.Drawing.Point(ekranX - 312, ekranY - 120)
+                                End If
+                            Else
+                                Timer1.Stop()
+                            End If
                             If gorunurluk = 0 Then
                                 Me.Hide()
                             End If
                             Me.TopMost = False
                         Else
-                            Beep()
-                            bipsayisi = bipsayisi + 1
+                            If Form2.CheckBox2.Checked = True Then
+                                Beep()
+                                bipsayisi = bipsayisi + 1
+                            Else
+                                bipsayisi = 5
+                            End If
                         End If
                     End If
                 End If
@@ -75,5 +94,11 @@ Public Class Form1
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
         Form2.Show()
+        If Me.TopMost = True Then
+            Form2.TopMost = True
+        Else
+            Form2.TopMost = True
+            Form2.TopMost = False
+        End If
     End Sub
 End Class
