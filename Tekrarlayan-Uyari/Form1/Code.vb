@@ -4,6 +4,8 @@ Public Class Form1
     Dim fareX, fareY As Integer
     Dim ekranX, ekranY As Integer
     Dim gorunurluk As Boolean = 1
+    Dim locX As Integer = Me.Location.X
+    Dim locY As Integer = Me.Location.Y
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         'Uygulamanın "enter" ile seçilecek butonu atandı
         Me.AcceptButton = Button1
@@ -44,8 +46,16 @@ Public Class Form1
                         NumericUpDown4.Value = 59
                     Else
                         'ZAMAN DOLDU
-                        Me.TopMost = True
-                        Me.Show()
+                        If Form2.CheckBox4.Checked = True Then
+                            Me.Show()
+                            gorunurluk = True
+                        End If
+                        If Form2.CheckBox6.Checked = True Then
+                        Else
+                            Me.Show()
+                            locX = Me.Location.X
+                            locY = Me.Location.Y
+                        End If
                         fareX = MousePosition.X
                         fareY = MousePosition.Y
                         Cursor.Position = New System.Drawing.Point(99999, 99999)
@@ -56,10 +66,18 @@ Public Class Form1
                             bipsayisi = 0
                             If Form2.CheckBox3.Checked = True Then 'Saati otomatik kur
                                 Button1.PerformClick()
+                                If Form2.CheckBox6.Checked = True Then
+                                Else
+                                    Me.Visible = True
+                                End If
                                 If Form2.CheckBox5.Checked = True Then 'Gerisayım başladığında beni köşeye gönder Checkbox ı
                                     Me.Location = New System.Drawing.Point(ekranX - 312, ekranY - 120)
                                 End If
                             Else
+                                If Form2.CheckBox6.Checked = True Then
+                                Else
+                                    Me.Visible = True
+                                End If
                                 Timer1.Stop()
                             End If
                             If gorunurluk = 0 Then
@@ -70,8 +88,13 @@ Public Class Form1
                             If Form2.CheckBox2.Checked = True Then
                                 Beep()
                                 bipsayisi = bipsayisi + 1
+                                If gorunurluk = 0 Then
+                                    Me.Show()
+                                    Me.Location = New System.Drawing.Point(99312, 999120)
+                                    Me.ShowInTaskbar = False
+                                End If
                             Else
-                                bipsayisi = 5
+                                'bipsayisi = 5
                             End If
                         End If
                     End If
@@ -81,14 +104,18 @@ Public Class Form1
     End Sub
 
     Private Sub NotifyIcon1_MouseDoubleClick(sender As System.Object, e As System.Windows.Forms.MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
-        If Me.CanFocus Then
+        If Me.CanFocus = True Then
             Me.Hide()
             gorunurluk = 0
         Else
             Me.Show()
             gorunurluk = 1
             TopMost = True
-            TopMost = False
+            If Form2.CheckBox1.Checked = False Then
+                TopMost = False
+            End If
+            Me.Location = New System.Drawing.Point((ekranX / 2) - 156, (ekranY / 2) - 60)
+            Me.ShowInTaskbar = True
         End If
     End Sub
 
