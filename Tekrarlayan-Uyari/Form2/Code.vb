@@ -41,6 +41,7 @@ Public Class Form2
     Private Sub CheckBox6_CheckStateChanged(sender As Object, e As System.EventArgs) Handles CheckBox6.CheckStateChanged
         If CheckBox6.Checked = True Then
             CheckBox2.Checked = True
+
         End If
     End Sub
 End Class
