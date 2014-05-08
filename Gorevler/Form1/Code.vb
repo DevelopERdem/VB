@@ -3,7 +3,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Timer1.Start()
     End Sub
-
+    'Timer1 fareyle progressbar ların üstüne gelince progressbar ların doluluğunu göstermektedir
     Private Sub Timer1_Tick(sender As System.Object, e As System.EventArgs) Handles Timer1.Tick
         Me.ToolTip1.SetToolTip(Me.ProgressBar1, ProgressBar1.Value)
         Me.ToolTip1.SetToolTip(Me.ProgressBar2, ProgressBar2.Value)
@@ -17,12 +17,7 @@ Public Class Form1
         Me.ToolTip1.SetToolTip(Me.ProgressBar10, ProgressBar10.Value)
 
     End Sub
-
-    Private Sub NumericUpDown1_ValueChanged(sender As System.Object, e As System.EventArgs) Handles NumericUpDown1.ValueChanged
-        ProgressBar2.Value = NumericUpDown1.Value
-        Call Deger()
-    End Sub
-
+    'Deger kaç tane görev yazıldıysa o kadar görevin progressbar ortalamasını alıp genel progresbar değerini hesaplar
     Private Sub Deger()
         If TextBox9.Text = "" Then
             ProgressBar1.Value = (ProgressBar2.Value + ProgressBar3.Value + ProgressBar4.Value + ProgressBar5.Value + ProgressBar6.Value + ProgressBar7.Value + ProgressBar8.Value + ProgressBar9.Value) / 8
@@ -53,6 +48,13 @@ Public Class Form1
         Else
             ProgressBar1.Value = (ProgressBar2.Value + ProgressBar3.Value + ProgressBar4.Value + ProgressBar5.Value + ProgressBar6.Value + ProgressBar7.Value + ProgressBar8.Value + ProgressBar9.Value + ProgressBar10.Value) / 9
         End If
+    End Sub
+    'Progressbar2 NumericUpDown1 e karşılık gelir bunun sebebi ana progressbar ın progressbar1 olmasıdır
+    'Bu Bu şekilde kayma ile devameder
+    'Progressbar lar değerlerini numericupdown lardan alır
+    Private Sub NumericUpDown1_ValueChanged(sender As System.Object, e As System.EventArgs) Handles NumericUpDown1.ValueChanged
+        ProgressBar2.Value = NumericUpDown1.Value
+        Call Deger()
     End Sub
 
     Private Sub NumericUpDown2_ValueChanged(sender As System.Object, e As System.EventArgs) Handles NumericUpDown2.ValueChanged
@@ -94,7 +96,10 @@ Public Class Form1
         ProgressBar10.Value = NumericUpDown9.Value
         Call Deger()
     End Sub
-
+    'progressbar ların değerlerinin progressbar lara tıklandıktan sonra mouse topu ile değiştirebilmek için
+    'odaklanılan obje tıklanılan progressbar ın ilgili numericupdown u seçilir
+    'Progressbar2 NumericUpDown1 e karşılık gelir bunun sebebi ana progressbar ın progressbar1 olmasıdır
+    'Bu Bu şekilde kayma ile devameder
     Private Sub ProgressBar2_Click(sender As System.Object, e As System.EventArgs) Handles ProgressBar2.Click
         NumericUpDown1.Focus()
     End Sub
