@@ -9,4 +9,4 @@ Ajandam
     <li><I>AnaForm1 kodları ve dizaynı <u>Anaform1</u> adında normal bir form'a yazılmadır.</I></li>
     
 </ul>
-<del>denemefbhfgnhf</del>
+<u>denemefbhfgnhf</u>
